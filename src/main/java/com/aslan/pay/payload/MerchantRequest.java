@@ -1,1 +1,1 @@
-package com.aslan.pay.payload;import lombok.*;@Data@NoArgsConstructor@AllArgsConstructor@Builderpublic class MerchantRequest {    private int type;    private String name;    private double cashback;    private int time;    private String link;    private String img;}
+package com.aslan.pay.payload;import lombok.*;@Data@NoArgsConstructor@AllArgsConstructor@Builderpublic class MerchantRequest {    private int categoryId;    private String name;    private double cashback;    private int time;    private String link;    private String img;}
